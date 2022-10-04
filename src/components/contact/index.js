@@ -32,7 +32,7 @@ const Contact = () => {
         const message = inputMessage.current.value;
         const data = {email, message};
         setModal(true);
-        setServerResponse('Enviando mensaje-aguarda un momento');
+        setServerResponse('Enviando mensaje-espera un momento');
         setModalImage(loader);
         fetch(`${config.backendpath}/contactme`, {
             method: 'POST',
@@ -87,7 +87,7 @@ const Contact = () => {
 
                         <div className="card contact_card">
                             <code>
-                                Querés preguntarme algo, contratarme o simplemente charlar?,
+                                ¿Quieres preguntarme algo, contratarme o simplemente charlar?,
                                 <b className="hilight"> mandame un mensaje!</b>
                                 <p>
                                     Prometo contestarte rápido! 🚀
@@ -118,7 +118,7 @@ const Contact = () => {
                                     required
                                     minLength={10}
                                     maxLength={2000}
-                                    placeholder="tu mensaje por acá..."
+                                    placeholder="tu mensaje por aquí..."
                                 >
                                 </textarea>
 
