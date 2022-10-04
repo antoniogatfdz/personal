@@ -33,29 +33,19 @@ const Tech = () => {
             </div>
             <code>
                 <p>
-                    <b className="hilight">JavaScript</b> everywhere!
+                    <b className="hilight">JavaScript</b> SIEMPRE!
                 </p>
             </code>
             <code>
                 <p>
-                    Luego de la muerte de <b className="hilight">Flash/Actionscrip</b> y la famosa carta de Jobs en 2010, a medida que actionscript dejó de ser soportado, puse el desarrollo
-                    multimedia en stand-by para dedicarme exclusivamente al diseño.
+                    Como ya comenté anteriormente, me dedico a dos lenguajes. Pero al que estoy dedicando mi mayor parte del tiempo es: <b className="hilight">JavaScript</b> 
+                    debido a que es un lenjuaje que ya tiene un trayecto marcado. No como Python que es algo "nuevo".
                 </p>
             </code>
             <code>
                 <p>        
-                    Años más tarde retomé el desarrollo eligiendo javascript como herramienta central.
+                    Por lo tanto la mayoría de mis proyectos se encuentran en este lenguaje.
                 </p>
-            </code>
-            <code>
-                En esta nueva etapa descubrí nuevas tecnologías como <b className="hilight">Node, Express, React </b>
-                y <b className="hilight">Mongo</b>, todas basadas en ese lenguaje.
-            </code>
-            <code>
-                Además profundicé mis conocimientos en html5 y css3
-            </code>
-            <code>
-                Éstas son algunas de las tecnologías que manejo:
             </code>
         </div>
         <div className="card tech_card">
