@@ -14,14 +14,14 @@ const Footer = () => {
         <footer>
         <div className="bottom_end">
             <div className="bottom_end_data">
-                <p>Abel Martín Bergesio - 2022 - Buenos Aires, Argentina.</p>
+                <p>Antonio Gat Fernández - 2022 - Espaá.</p>
             </div>
             <nav>
                 <Item img={about} title="sobre mí" route="#aboutme" />
                 <Item img={techs} title="technologías" route="#technologies" />
                 <Item img={portfolio} title="portfolio" route="#portfolio" />
-                <Item img={github} title="github" route="https://github.com/ambergesio" target="_blank"/>
-                <Item img={linkedin} title="linkedin" route="https://www.linkedin.com/in/abel-martin-bergesio-42819820a/" target="_blank"/>
+                <Item img={github} title="github" route="https://github.com/antoniogatfdz" target="_blank"/>
+                <Item img={linkedin} title="linkedin" route="https://es.linkedin.com/in/antonio-gat-fern%C3%A1ndez-4600a11a1" target="_blank"/>
                 <Item img={contact} title="contacto" route="#contact" />
             </nav>
         </div>
